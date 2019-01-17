@@ -30,3 +30,27 @@ body{
   font-weight: bold;
   color: #000000;
 }
+
+.sidebar{
+  background-color: gray;
+  width: 200px;
+  height: 700px;
+  padding: 25px;
+  margin-left: 100px;
+  box-shadow: 1px 1px 25px 10px;
+  opacity: 0.9;
+}
+
+#navigation a{
+  display: block;
+  font-size: 17px;
+  padding: 20px;
+  width: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+#navigation a:hover{
+  text-decoration: underline;
+  font-size: 20px;
+}
