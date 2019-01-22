@@ -43,6 +43,7 @@ html{
 
 .sidebar{
   background-color: gray;
+  font-family: sans-serif;
   width: auto;
   height: 15px;
   padding: 10px;
