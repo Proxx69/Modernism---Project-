@@ -20,13 +20,13 @@ body{
   height: 40px;
   text-align: center;
   padding: 25px;
-  margin: 200px 0px 0px 525px;
+  margin: 100px 0px 0px 470px;
   box-shadow: 1px 1px 25px 10px;
   opacity: 0.9;
 }
 
 .header h1{
-  font-family: "Times New Roman", Times, serif;
+  font-family: serif;
   letter-spacing: 3px;
   font-weight: bold;
   color: #000000;
@@ -36,9 +36,11 @@ body{
 
 .sidebar{
   background-color: gray;
+  font-family: sans-serif;
   width: auto;
   height: 12px;
   padding: 10px;
+  padding-left: 190px;
   margin: 0px 0px 0px 0px;
   box-shadow: 1px 1px 25px 10px;
   border-bottom: 1px solid black;
@@ -56,5 +58,5 @@ body{
 
 #navigation a:hover{
   text-decoration: underline;
-  font-size: 22px;
+  font-size: 20px;
 }
