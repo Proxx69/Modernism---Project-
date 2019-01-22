@@ -25,10 +25,11 @@ html{
   height: 40px;
   text-align: center;
   padding: 25px;
-  margin: 100px 0px 0px 470px;
+  margin: auto;
+  margin-top: 100px;
   box-shadow: 1px 1px 25px 10px;
   opacity: 0.9;
-  position: relative  ;
+  position: relative;
 }
 
 .header h1{
@@ -60,7 +61,7 @@ html{
   width: 200px;
   text-decoration: none;
   color: black;
-  
+
 }
 
 #navigation a:hover{
