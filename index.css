@@ -15,7 +15,7 @@ html{
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: overlay;
-  position: relative; 
+  position: relative;
 }
 /* Header */
 
@@ -43,7 +43,7 @@ html{
 .sidebar{
   background-color: gray;
   width: auto;
-  height: 12px;
+  height: 15px;
   padding: 10px;
   margin: 0px 0px 0px 0px;
   box-shadow: 1px 1px 25px 10px;
@@ -58,6 +58,7 @@ html{
   width: 200px;
   text-decoration: none;
   color: black;
+  
 }
 
 #navigation a:hover{
