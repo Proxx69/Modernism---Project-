@@ -48,7 +48,6 @@ html{
   height: 15px;
   padding: 10px;
   padding-left: 190px;
-  margin: 0px 0px 0px 0px;
   box-shadow: 1px 1px 25px 10px;
   border-bottom: 1px solid black;
   opacity: 0.9;
@@ -56,12 +55,10 @@ html{
 
 #navigation a{
   display: inline;
-  font-size: 17px;
+  font-size: 16px;
   padding: 20px;
-  width: 200px;
   text-decoration: none;
   color: black;
-
 }
 
 #navigation a:hover{
