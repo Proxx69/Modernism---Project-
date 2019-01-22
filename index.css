@@ -29,11 +29,11 @@ html{
   margin-top: 100px;
   box-shadow: 1px 1px 25px 10px;
   opacity: 0.9;
-  position: relative;
+  position: relative  ;
 }
 
 .header h1{
-  font-family: serif;
+  font-family: "Times New Roman", Times, serif;
   letter-spacing: 3px;
   font-weight: bold;
   color: #000000;
@@ -43,7 +43,6 @@ html{
 
 .sidebar{
   background-color: gray;
-  font-family: sans-serif;
   width: auto;
   height: 15px;
   padding: 10px;
@@ -63,5 +62,5 @@ html{
 
 #navigation a:hover{
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 22px;
 }
