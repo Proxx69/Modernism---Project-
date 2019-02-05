@@ -18,6 +18,7 @@ html{
   background-blend-mode: overlay;
   position: relative;
 }
+
 /* Header */
 
 .header{
@@ -67,6 +68,8 @@ html{
   font-size: 22px;
 
 }
+
+/* Paragraphs */
 
 .paragraphs{
   height: 14.2%;
