@@ -138,3 +138,15 @@ box-shadow: 1px 1px 25px 10px;
 #pseven{
   padding-bottom: 50px;
 }
+#economyend{
+  font-style: oblique;
+}
+#top{
+  height: 1px;
+}
+#economy{
+
+}
+html{
+  scroll-behavior: smooth;
+}
