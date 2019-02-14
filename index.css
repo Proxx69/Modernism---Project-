@@ -8,7 +8,7 @@ height: 100%;
 }
 
 html{
-  background-image: url(bg.jpg);
+  background-image: url(Images/bg.jpg);
   height: 100%;
   background-size: cover;
   background-color: #cccccc;
@@ -90,7 +90,7 @@ box-shadow: 1px 1px 25px 10px;
 
 }
 
-#onep{
+.image{
   width: 30%;
 
   float: left;
@@ -98,14 +98,14 @@ box-shadow: 1px 1px 25px 10px;
 
 }
 
-#onepp{
+.onepp{
   width: 70%;
   height: 30%;
   float: right;
   margin-top: 0px;
 }
 
-#onep img{
+.image img{
   width: 175px;
   height:175px;
   margin-bottom: 50px;
