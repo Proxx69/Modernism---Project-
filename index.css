@@ -34,12 +34,7 @@ html{
   position: relative;
 }
 
-.Header { grid-area: Header;
-        background-color: aqua;
-}
-
-.content { grid-area: content;
-background-color: darkblue;}
+/* Navigation bar */
 
 .sidebar{
   background-color: gray;
@@ -50,16 +45,17 @@ background-color: darkblue;}
   border-bottom: 1px solid black;
   top: 0;
   position: fixed;
-
 }
 
-.Sidebar2 { grid-area: Sidebar2;
-background-color: brown;}
+#navigation a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
 
 #navigation a:hover{
   text-decoration: underline;
   font-size: 22px;
-
 }
 
 /* Paragraphs */
@@ -85,7 +81,6 @@ box-shadow: 1px 1px 25px 10px;
 
 .image{
   width: 30%;
-
   float: left;
   margin-top: 0px;
 
@@ -125,21 +120,25 @@ box-shadow: 1px 1px 25px 10px;
 #pfive{
   padding-bottom: 50px;
 }
+
 #psix{
   padding-bottom: 50px;
 }
+
 #pseven{
   padding-bottom: 50px;
 }
+
 #economyend{
   font-style: oblique;
 }
+
 #top{
   height: 1px;
 }
-#economy{
 
-}
+/* Smooth scrolling */
+
 html{
   scroll-behavior: smooth;
 }
