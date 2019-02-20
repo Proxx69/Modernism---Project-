@@ -1,6 +1,6 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -8,7 +8,7 @@ height: 100%;
 }
 
 html{
-  background-image: url(bg.jpg);
+  background-image: url(Images/bg.jpg);
   height: 100%;
   background-size: cover;
   background-color: #cccccc;
@@ -34,14 +34,7 @@ html{
   position: relative;
 }
 
-.header h1{
-  font-family: "Times New Roman", Times, serif;
-  letter-spacing: 3px;
-  font-weight: bold;
-  color: #000000;
-}
-
-/* Navigation */
+/* Navigation bar */
 
 .sidebar{
   background-color: gray;
@@ -52,21 +45,17 @@ html{
   border-bottom: 1px solid black;
   top: 0;
   position: fixed;
-
 }
 
 #navigation a{
-  display: inline;
-  font-size: 16px;
-  padding: 20px;
   text-decoration: none;
   color: black;
+  padding: 10px;
 }
 
 #navigation a:hover{
   text-decoration: underline;
   font-size: 22px;
-
 }
 
 /* Paragraphs */
@@ -90,22 +79,20 @@ box-shadow: 1px 1px 25px 10px;
 
 }
 
-#onep{
+.image{
   width: 30%;
-
   float: left;
   margin-top: 0px;
-
 }
 
-#onepp{
+.onepp{
   width: 70%;
   height: 30%;
   float: right;
   margin-top: 0px;
 }
 
-#onep img{
+.image img{
   width: 175px;
   height:175px;
   margin-bottom: 50px;
@@ -132,21 +119,25 @@ box-shadow: 1px 1px 25px 10px;
 #pfive{
   padding-bottom: 50px;
 }
+
 #psix{
   padding-bottom: 50px;
 }
+
 #pseven{
   padding-bottom: 50px;
 }
+
 #economyend{
   font-style: oblique;
 }
+
 #top{
   height: 1px;
 }
-#economy{
 
-}
+/* Smooth scrolling */
+
 html{
   scroll-behavior: smooth;
 }
