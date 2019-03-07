@@ -17,6 +17,7 @@ html{
   background-position: center;
   background-blend-mode:hard-light;
   position: relative;
+  overflow-y: hidden;
 }
 
 /* Header */
