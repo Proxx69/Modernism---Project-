@@ -45,17 +45,34 @@ html{
   border-bottom: 1px solid black;
   top: 0;
   position: fixed;
+  overflow: hidden;
+
+
+}
+
+li{
+float: left;
+
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 #navigation a{
   text-decoration: none;
   color: black;
   padding: 10px;
+
+
 }
 
 #navigation a:hover{
   text-decoration: underline;
-  font-size: 22px;
+  line-height: 20px; font-size: 14px;
+  font-size: 20px;
 }
 
 /* Paragraphs */
@@ -72,7 +89,7 @@ box-shadow: 1px 1px 25px 10px;
 
 
 
-#one{
+.one{
   width: 100%;
   height: 30vh;
   margin-bottom: 25px;
@@ -97,36 +114,8 @@ box-shadow: 1px 1px 25px 10px;
   height:175px;
   margin-bottom: 50px;
 
-
 }
 
-#pone{
-  padding-bottom: 50px;
-}
-
-#ptwo{
-  padding-bottom: 50px;
-}
-
-#pthree{
-  padding-bottom: 50px;
-}
-
-#pfour{
-  padding-bottom: 50px;
-}
-
-#pfive{
-  padding-bottom: 50px;
-}
-
-#psix{
-  padding-bottom: 50px;
-}
-
-#pseven{
-  padding-bottom: 50px;
-}
 
 #economyend{
   font-style: oblique;
@@ -140,4 +129,8 @@ box-shadow: 1px 1px 25px 10px;
 
 html{
   scroll-behavior: smooth;
+}
+
+#hfirst{
+  margin-right: 175px;
 }
